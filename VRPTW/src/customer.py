@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Customer Representation for VRPTW instances
+Customer Representation for VRPMTW instances
 
 Author: Peterson Katagiri Zilli <peterson.zilli@gmail.com>
 Date: 2018-01-25
 """
 
 class Customer:
-    """Customer Class for VRPTW"""
+    """Customer Class for VRPMTW"""
     def __init__(self, customer_info=None):
         self.prev_customer = None
         self.next_customer = None

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Instance Representation for VRPTW
+Instance Representation for VRPMTW
 Author: Peterson Katagiri Zilli <peterson.zilli@gmail.com>
 Date: 2018-01-25
 """
@@ -9,7 +9,7 @@ from reader import Reader
 from customer import Customer
 
 class Instance:
-    """Instance Class for VRPTW"""
+    """Instance Class for VRPMTW"""
     def __init__(self, file_name=None):
         self.file_name = file_name
 

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Complete a full solution for VRPTW given a partial solution 
+Complete a full solution for VRPMTW given a partial solution 
 Author: Peterson Katagiri Zilli <peterson.zilli@gmail.com>
 Date: 2018-01-25
 
@@ -12,8 +12,8 @@ from solution import Solution
 import random
 import sys
 
-class ConstructionSimple:
-    """Instance Class for VRPTW"""
+class ConstructionSimple1:
+    """Instance Class for VRPMTW"""
     def __init__(self, instance, solution=None):
         self.instance = instance
         if not solution:

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Readers for VRPTW instances
+Readers for VRPMTW instances
 Author: Peterson Katagiri Zilli <peterson.zilli@gmail.com>
 Date: 2018-01-25
 
@@ -10,7 +10,7 @@ Important Notes:
 import re
 
 class Reader:
-    """Reader Class for VRPTW instances"""
+    """Reader Class for VRPMTW instances"""
     def __init__(self, filename=None):
         self.filename = filename
 

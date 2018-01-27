@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Solution Representation for VRPTW
+Solution Representation for VRPMTW
 Author: Peterson Katagiri Zilli <peterson.zilli@gmail.com>
 Date: 2018-01-25
 """
@@ -8,7 +8,7 @@ Date: 2018-01-25
 from route import Route
 
 class Solution:
-    """Instance Class for VRPTW"""
+    """Instance Class for VRPMTW"""
     def __init__(self, instance, routes=None):
         self.instance = instance
         if not routes:
